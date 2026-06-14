@@ -9,9 +9,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Contributors Welcome](https://img.shields.io/badge/contributors-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/yosefhayim-ebay-api-mcp-server-badge.png)](https://mseep.ai/app/yosefhayim-ebay-api-mcp-server)
-<a href="https://www.buymeacoffee.com/yosefhayim" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server providing AI assistants with comprehensive access to eBay's Sell APIs. Includes **325 tools** for inventory management, order fulfillment, marketing campaigns, analytics, developer tools, and more.
 
 **API Coverage:** 100% (270 unique eBay API endpoints)
@@ -143,8 +140,8 @@ npm install -g ebay-mcp
 **Option B: Install from source**
 
 ```bash
-git clone https://github.com/YosefHayim/ebay-mcp.git
-cd ebay-mcp
+git clone https://github.com/jyarbro/ebay-seller-mcp.git
+cd ebay-seller-mcp
 npm install
 npm run build
 ```
@@ -393,8 +390,8 @@ Here are some common tasks you can accomplish with the eBay MCP server:
 ### Quick Start for Contributors
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ebay-mcp.git
-cd ebay-mcp
+git clone https://github.com/jyarbro/ebay-seller-mcp.git
+cd ebay-seller-mcp
 npm install
 npm run setup      # Interactive setup wizard
 npm run build
@@ -599,7 +596,7 @@ The diagnostic tool checks:
 
 If you're still experiencing issues:
 
-1. Check existing [GitHub Issues](https://github.com/YosefHayim/ebay-mcp/issues)
+1. Check existing [GitHub Issues](https://github.com/jyarbro/ebay-seller-mcp/issues)
 2. Create a new issue with:
    - Your diagnostic report (`npm run diagnose:export`)
    - Steps to reproduce the problem
@@ -632,20 +629,12 @@ Check current eBay API health, incidents, and fixes:
 
 ### Support
 
-- [Issue Tracker](https://github.com/YosefHayim/ebay-mcp/issues) - Bug reports and feature requests
+- [Issue Tracker](https://github.com/jyarbro/ebay-seller-mcp/issues) - Bug reports and feature requests
 - [Bug Report Template](BUG_REPORT.md) - Detailed bug reporting guide
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributors
-
-Thanks to all the amazing contributors who have helped make this project better! 🎉
-
-<a href="https://github.com/YosefHayim/ebay-mcp/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=YosefHayim/ebay-mcp" alt="Contributors" />
-</a>
 
 ## Acknowledgments
 
@@ -656,6 +645,6 @@ Thanks to all the amazing contributors who have helped make this project better!
 
 <div align="center">
 
-**[Support this project](https://www.buymeacoffee.com/yosefhayim)** | Created by [Yosef Hayim Sabag](https://github.com/YosefHayim)
+Forked from https://github.com/YosefHayim/ebay-mcp
 
 </div>
